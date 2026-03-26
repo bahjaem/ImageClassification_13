@@ -140,7 +140,7 @@ This project demonstrates a working CNN-based image classifier achieving competi
 ---
 
 ## 👤 Author
-**Name:** [Your Name]  
-**Roll No:** [Your Roll No]  
+**Name:** Bahja Em  
+**Roll No:** 13  
 **Institution:** MEA Engineering College, Kerala  
 **Course:** B.Tech Computer Science and Engineering (KTU)
