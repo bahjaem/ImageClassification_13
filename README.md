@@ -147,3 +147,4 @@ This project demonstrates a working CNN-based image classifier achieving competi
 
 
 - Update 1: Dataset loading added
+- Update 2: Model architecture added
