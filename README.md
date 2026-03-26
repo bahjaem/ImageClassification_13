@@ -156,3 +156,5 @@ This project demonstrates a working CNN-based image classifier achieving competi
 - Update 4: Accuracy graph added
 - Update 5: Confusion matrix added
 - Update 6: Predictions added
+- Update 7: README updated
+- Update 8: Final improvements
