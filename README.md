@@ -146,8 +146,13 @@ This project demonstrates a working CNN-based image classifier achieving competi
 **Course:** B.Tech Computer Science and Engineering (KTU)
 
 
+
+
+## 🔄 Updates
+
 - Update 1: Dataset loading added
 - Update 2: Model architecture added
 - Update 3: Training added
 - Update 4: Accuracy graph added
 - Update 5: Confusion matrix added
+- Update 6: Predictions added
