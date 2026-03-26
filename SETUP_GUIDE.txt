@@ -1,0 +1,97 @@
+============================================================
+  CNN IMAGE CLASSIFICATION - UBUNTU SETUP GUIDE
+  Step-by-step instructions for beginners
+============================================================
+
+STEP 1: Open Terminal on Ubuntu
+--------------------------------
+Press Ctrl+Alt+T to open the terminal.
+
+
+STEP 2: Install pip (if not installed)
+---------------------------------------
+  sudo apt update
+  sudo apt install python3-pip python3-venv -y
+
+
+STEP 3: Go to your project folder
+-----------------------------------
+  cd ImageClassification_RollNo
+
+
+STEP 4: Create a Virtual Environment
+--------------------------------------
+  python3 -m venv venv
+
+
+STEP 5: Activate the Virtual Environment
+------------------------------------------
+  source venv/bin/activate
+
+  (You will see "(venv)" at the start of your terminal line)
+
+
+STEP 6: Install all required libraries
+----------------------------------------
+  pip install -r requirements.txt
+
+  (This installs TensorFlow, Matplotlib, Seaborn, Jupyter, etc.)
+  (May take 5-10 minutes on first run)
+
+
+STEP 7: Start Jupyter Notebook
+--------------------------------
+  jupyter notebook
+
+  (A browser window will open automatically)
+  (Click on "image_classification.ipynb" to open the project)
+
+
+STEP 8: Run the notebook
+--------------------------
+  - Click on the first cell
+  - Press Shift+Enter to run each cell one by one
+  - OR click "Kernel > Restart & Run All" to run everything at once
+
+
+STEP 9: (Optional) Run as Python script instead
+-------------------------------------------------
+  python3 train.py
+
+
+STEP 10: View your outputs
+---------------------------
+  After training, check the "screenshots/" folder for:
+  - sample_images.png
+  - training_history.png
+  - confusion_matrix.png
+  - predictions.png
+
+  The best model is saved to: saved_model/best_model.keras
+
+
+============================================================
+  GITHUB PUSH COMMANDS (after project is complete)
+============================================================
+
+  git init
+  git add .
+  git commit -m "Initial commit: CNN CIFAR-10 classifier"
+
+  git remote add origin https://github.com/YOUR_USERNAME/ImageClassification_RollNo.git
+  git branch -M main
+  git push -u origin main
+
+  (Do at least 8-10 commits with different messages during development)
+
+  Example commit messages:
+    "Add dataset loading and preprocessing"
+    "Add CNN model architecture"
+    "Add model training with callbacks"
+    "Add confusion matrix and evaluation"
+    "Add sample predictions visualization"
+    "Add requirements.txt and README"
+    "Fix dropout values"
+    "Final cleanup and documentation"
+
+============================================================
