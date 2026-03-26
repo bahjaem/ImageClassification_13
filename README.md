@@ -144,3 +144,6 @@ This project demonstrates a working CNN-based image classifier achieving competi
 **Roll No:** 13  
 **Institution:** MEA Engineering College, Kerala  
 **Course:** B.Tech Computer Science and Engineering (KTU)
+
+
+- Update 1: Dataset loading added
