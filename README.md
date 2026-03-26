@@ -1,4 +1,4 @@
-# CNN Image Classification on CIFAR-10
+x# CNN Image Classification on CIFAR-10
 
 ## 🔍 Project Title
 **Deep Learning-Based Image Classification using Convolutional Neural Networks (CNN)**
@@ -149,3 +149,4 @@ This project demonstrates a working CNN-based image classifier achieving competi
 - Update 1: Dataset loading added
 - Update 2: Model architecture added
 - Update 3: Training added
+- Update 4: Accuracy graph added
